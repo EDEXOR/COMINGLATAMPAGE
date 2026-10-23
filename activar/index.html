@@ -13,6 +13,8 @@
    <meta name="theme-color" content="#48276c">
    <meta property="og:type" content="website">
    <meta property="og:locale" content="es_SV">
+   <meta property="og:locale:alternate" content="es_GT">
+   <meta property="og:locale:alternate" content="es_HN">
    <meta property="og:site_name" content="COMING">
    <meta property="og:title" content="Activa tu demo | COMING">
    <meta property="og:description" content="Activa en 3 pasos la página de prueba que preparamos para tu negocio.">
@@ -20,26 +22,35 @@
    <meta property="og:image" content="https://cominglatam.com/assets/img/coming/og-coming.png">
    <meta property="og:image:width" content="1200">
    <meta property="og:image:height" content="630">
+   <meta property="og:image:alt" content="COMING, transformación digital para pymes">
    <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Activa tu demo | COMING">
+   <meta name="twitter:description" content="Activa en 3 pasos la página de prueba que preparamos para tu negocio.">
+   <meta name="twitter:image" content="https://cominglatam.com/assets/img/coming/og-coming.png">
    <!-- favicon: cohete de COMING -->
    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+   <!-- fuentes propias (sin Google Fonts): precarga de las dos más usadas arriba del pliegue -->
+   <link rel="preload" href="../assets/fonts/Quicksand-700.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="../assets/fonts/Raleway-400.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="../assets/img/coming/breadcrumb-coming.webp" as="image" type="image/webp" fetchpriority="high">
 
    <!-- CSS here -->
    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
    <link rel="stylesheet" href="../assets/css/animate.css">
    <link rel="stylesheet" href="../assets/css/custom-animation.css">
    <link rel="stylesheet" href="../assets/css/swiper-bundle.css">
-   <link rel="stylesheet" href="../assets/css/slick.css">
+   <link rel="stylesheet" href="../assets/css/slick.css" media="print" onload="this.media='all'">
    <link rel="stylesheet" href="../assets/css/flaticon.css">
    <link rel="stylesheet" href="../assets/css/meanmenu.css">
    <link rel="stylesheet" href="../assets/css/font-awesome-pro.css">
-   <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="../assets/css/magnific-popup.css" media="print" onload="this.media='all'">
    <link rel="stylesheet" href="../assets/css/spacing.css">
    <link rel="stylesheet" href="../assets/css/style.css">
    <link rel="stylesheet" href="../assets/css/coming.css">
+   
 </head>
 <body>
    <a class="coming-skip" href="#main">Saltar al contenido</a>
@@ -50,7 +61,7 @@
             <div class="row align-items-center">
                <div class="col-xxl-3 col-xl-3 col-lg-3">
                   <div class="tp-logo text-start">
-                     <a href="../index.html"><img src="../assets/img/logo/logo.png" alt="COMING, el mejor aliado de tu marca" width="160"></a>
+                     <a href="../index.html"><img src="../assets/img/logo/logo.png" alt="COMING, transformación digital para pymes" width="160" height="52"></a>
                   </div>
                </div>
                <div class="col-xxl-5 col-xl-6 col-lg-6">
@@ -84,7 +95,7 @@
          <div class="row align-items-center">
             <div class="col-md-6 col-6">
                <div class="tp-logo">
-                  <a href="../index.html"><img src="../assets/img/logo/logo.png" alt="COMING" width="140"></a>
+                  <a href="../index.html"><img src="../assets/img/logo/logo.png" alt="COMING" width="140" height="46"></a>
                </div>
             </div>
             <div class="col-md-6 col-6">
@@ -101,11 +112,11 @@
       <div class="tpoffcanvas">
          <div class="tpoffcanvas__logo">
             <a href="../index.html">
-               <img src="../assets/img/logo/logoblanco.png" alt="COMING">
+               <img loading="lazy" decoding="async" src="../assets/img/logo/logoblanco.png" alt="COMING" width="180" height="59">
             </a>
          </div>
          <div class="tpoffcanvas__close-btn">
-            <a class="close-btn" href="javascript:void(0)" aria-label="Cerrar menú"><i class="fal fa-times-hexagon"></i></a>
+            <button type="button" class="close-btn" aria-label="Cerrar menú"><i class="fal fa-times-hexagon"></i></button>
          </div>
          <div class="tpoffcanvas__content d-none d-sm-block">
             <p>El mejor aliado<br>de tu marca</p>
@@ -131,9 +142,9 @@
 
       <!-- breadcrumb area start -->
       <section class="breadcrumb__area  breadcrumb__pt-310 include-bg p-relative"
-         data-background="../assets/img/coming/breadcrumb-coming.jpg">
+         data-background="../assets/img/coming/breadcrumb-coming.webp" style="background-image:url(../assets/img/coming/breadcrumb-coming.webp)">
          <div class="ac-about-shape-img z-index-1">
-            <img src="../assets/img/coming/rocket-purple.svg" alt="" width="50">
+            <img loading="lazy" decoding="async" src="../assets/img/coming/rocket-purple.svg" alt="" width="50" height="100">
          </div>
          <div class="container">
             <div class="row">
@@ -170,7 +181,7 @@
                <div class="col-xl-6 col-lg-6 ">
                  <div class="tp-contct-wrapper contact-space-40">
                   <div class="tp-contact-thumb mb-60">
-                     <img src="../assets/img/logo/mail.png" alt="" width="170">
+                     <img loading="lazy" decoding="async" height="170" src="../assets/img/logo/mail.png" alt="" width="170">
                   </div>
                   <div class="tp-contact-info mb-40">
                      <h4 class="contact-title">WhatsApp</h4>
@@ -228,10 +239,10 @@
    <footer>
       <div class="tp-footer-area pt-120 p-relative black-bg p-relative">
          <div class="bs-footer-shape-1 d-none d-lg-block">
-            <img src="../assets/img/footer/testimonial-shape-5.4.png" alt="">
+            <img loading="lazy" decoding="async" height="42" width="43" src="../assets/img/footer/testimonial-shape-5.4.png" alt="">
          </div>
          <div class="bs-footer-shape-2  d-none d-lg-block">
-            <img src="../assets/img/footer/team-shape-5.3.png" alt="">
+            <img loading="lazy" decoding="async" height="44" width="44" src="../assets/img/footer/team-shape-5.3.png" alt="">
          </div>
          <div class="container">
             <div class="row">
@@ -240,7 +251,7 @@
                      <h2 class="tp-footer-title text-white pb-15">¿Buscas algo personalizado?</h2>
                      <p>Atendemos todos tus requerimientos</p>
                      <a class="tp-btn-sky mb-50" href="../contacto.html">Escríbenos</a>
-                     <p class="right-receved">© <span class="coming-year">2026</span> Coming Latam · San Salvador, El Salvador<br>COMING · El mejor aliado de tu marca</p>
+                     <p class="right-receved">© <span class="coming-year">2026</span> Coming Latam · San Salvador, El Salvador<br>COMING · Transformación digital para pymes en El Salvador, Guatemala y Honduras</p>
                   </div>
                </div>
             </div>
@@ -249,7 +260,7 @@
                   <div class="col-xl-4 col-lg-4 col-md-12 col-12">
                      <div class="tp-copyright-logo-box mb-30">
                         <div class="tp-copyright-logo text-center text-lg-start">
-                           <a href="../index.html"><img src="../assets/img/logo/logoblanco.png" alt="COMING" width="160"></a>
+                           <a href="../index.html"><img loading="lazy" decoding="async" height="52" src="../assets/img/logo/logoblanco.png" alt="COMING" width="160"></a>
                         </div>
                      </div>
                   </div>

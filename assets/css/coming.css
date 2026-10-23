@@ -165,3 +165,7 @@ html,body{overflow-x:clip}
 .coming-sv-otros a{display:inline-flex;gap:8px;align-items:center;border:1px solid #d9d0e6;border-radius:99px;padding:6px 14px;font-size:15px;color:#48276c}
 .coming-sv-otros a:hover{background:#48276c;color:#fff}
 .service-details-area .tp-title-sm,.sd-accordio-area.grey-bg .tp-title-sm{color:#2e1748}
+/* SEO: botón real para cerrar el menú (antes <a href="javascript:void(0)">) sin cambiar su aspecto */
+button.close-btn{background:none;border:0;padding:0;margin:0;color:inherit;font:inherit;line-height:inherit;cursor:pointer}
+/* SEO/CLS: width/height en <img> reservan espacio; sin especificidad para no pisar ningún estilo de la plantilla */
+:where(img[width][height]){height:auto}
