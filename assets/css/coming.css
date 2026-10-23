@@ -21,9 +21,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .tp-section-highlight svg path{fill:var(--coming-l)}
 .yellow-bg .tp-section-highlight svg path{fill:#fff}
 /* hero */
-.tp-hero-bs-title{color:var(--coming-p)}
-.coming-hero-kicker{display:inline-block;background:var(--coming-l);color:#2e1748;font-family:var(--tp-ff-heading);font-weight:700;font-size:15px;padding:5px 14px;border-radius:99px;margin-bottom:18px}
-.coming-hero-cta{font-family:var(--tp-ff-heading);font-weight:700;color:var(--coming-p);font-size:18px;margin-bottom:12px}
+.tp-hero-bs-title{color:var(--coming-p);letter-spacing:normal}
+.coming-hero-tight .tp-hero-section-box-five{padding-top:48px}
+.coming-hero-actions .tp-btn-sky{border-radius:10px}
+.coming-nowrap{white-space:nowrap}
+.coming-hero-actions .coming-hero-fine{margin-top:14px}
+@media (max-width:767px){.coming-hero-tight .tp-hero-section-box-five{padding-top:20px}.coming-hero-actions .tp-btn-sky{padding:0 28px;max-width:100%}}
 .tp-hero-section-box-five__title p strong{color:var(--coming-p)}
 /* servicios (rubros) */
 .coming-sv-sub{color:#fff;opacity:.92;margin:6px 0 0;font-size:16px;line-height:1.35}
